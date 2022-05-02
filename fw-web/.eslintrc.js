@@ -19,11 +19,15 @@ module.exports = {
 	},
 	plugins: ['react', 'react-hooks', '@typescript-eslint, prettier'],
 	rules: {
-		indent: ['error', 'tab'],
+
+		'indent': ['error', 'tab'],
 		'linebreak-style': ['error', 'unix'],
-		quotes: ['error', 'single'],
-		semi: ['error', 'always'],
+		'quotes': ['error', 'single'],
+		'semi': ['error', 'always'],
 		'import/no-unresolved': 'error',
+		'no-else-return': 'error',
+		'react/jsx-uses-react': 'off',
+		'react/react-in-jsx-scope': 'off',
 	},
 	settings: {
 		'import/resolver': {
