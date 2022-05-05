@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Feedback {
+  fe_id         String  @id @default(uuid())
+  fe_type       String
+  fe_comment    String
+  fe_screenshot String?
+
+  @@map("fe_feedbacks")
+}
