@@ -3,7 +3,7 @@
 # NLW Return - Feedback Widget
 
 > NLW Return - Feedback Widget é um projeto desenvolvido durante a 8° edição do evento NLW da Rocketseat que ocorreu 
-em 2022. Sua finalidade é demostrar de forma básica o funcionamento de alumas tecnologias e práticas modernas de desenolvimento.
+em 2022. Sua finalidade é demostrar de forma básica o funcionamento de alumas tecnologias e práticas modernas de desenvolvimento.
 > <br/><br> O desenvolvimento da aplicação foi construido a partir da documentação que pode ser encontrada [aqui][].
 
 Este projeto é um widget que permite o usuário reportar uma falha, sugestão ou 'outro', juntamente com  uma print,
